@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Portfolio Design System - Vibrant fuchsia/purple/pink theme
+/* Portfolio Design System - Vibrant fuchsia/purple/cyan theme
 All colors MUST be HSL.
 */
 
@@ -24,24 +24,24 @@ All colors MUST be HSL.
     --secondary: 271 81% 56%; /* Purple #9333EA */
     --secondary-foreground: 0 0% 100%;
 
-    --accent: 317 70% 68%; /* Pink #F472B6 */
+    --accent: 193 82% 59%; /* Vibrant Cyan #22D3EE */
     --accent-foreground: 0 0% 100%;
 
-    --muted: 320 20% 97%; /* Soft Pink #FCE7F3 */
+    --muted: 193 20% 97%; /* Soft Cyan tint */
     --muted-foreground: 215.4 16.3% 46.9%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 320 20% 90%;
-    --input: 320 20% 95%;
+    --border: 193 20% 90%;
+    --input: 193 20% 95%;
     --ring: 292 84% 61%;
 
     --radius: 0.75rem;
 
     /* Portfolio Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(292 84% 61%), hsl(271 81% 56%), hsl(317 70% 68%));
-    --gradient-soft: linear-gradient(135deg, hsl(320 20% 97%), hsl(0 0% 100%));
+    --gradient-primary: linear-gradient(135deg, hsl(292 84% 61%), hsl(271 81% 56%), hsl(193 82% 59%));
+    --gradient-soft: linear-gradient(135deg, hsl(193 20% 97%), hsl(0 0% 100%));
     --gradient-text: linear-gradient(135deg, hsl(292 84% 61%), hsl(271 81% 56%));
     
     /* Glassmorphism */
@@ -140,7 +140,7 @@ All colors MUST be HSL.
   }
 
   .shimmer-text {
-    background: linear-gradient(90deg, hsl(292 84% 61%), hsl(271 81% 56%), hsl(317 70% 68%), hsl(292 84% 61%));
+    background: linear-gradient(90deg, hsl(292 84% 61%), hsl(271 81% 56%), hsl(193 82% 59%), hsl(292 84% 61%));
     background-size: 400% 100%;
     -webkit-background-clip: text;
     background-clip: text;
