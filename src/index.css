@@ -124,7 +124,7 @@ All colors MUST be HSL.
 @layer components {
   /* Portfolio-specific components */
   .glass-card {
-    @apply backdrop-blur-md bg-white/25 border border-white/18 rounded-xl;
+    @apply backdrop-blur-md bg-white/25 border border-white/20 rounded-xl;
     box-shadow: var(--glass-shadow);
   }
 
